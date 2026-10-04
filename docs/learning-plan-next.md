@@ -97,24 +97,38 @@
 - [ ] **多 Agent 协作**：什么场景需要，做个 demo
 
 ### 求职准备
+- [x] **把项目推 GitHub** ✅ 已完成（2026-10-01）
+      **https://github.com/dagzddd-creator/ai-agent-learning**
+      32 个文件 / 2934 行；`.env`、1.1GB 模型、sqlite 本地数据均已确认排除；
+      提交已归属到自己账号（`dagzddd-creator`）
 - [ ] 读 Hello-Agents 的 **Extra01 面试题 + 参考答案**，自查哪些答不上
 - [ ] 把"8 道已会的题"写成**自己的答案**（不要背原文）
-- [ ] 把项目推 **GitHub**（`.env` 已确认被忽略，安全）
+      → **从 RAG 第一题开始**（"RAG 原理 + 相比微调的优势"），用 5 段骨架填
 - [ ] 练习"3 分钟讲清一个项目"
 
 ---
 
 ## 六、恢复点（下次从这里继续）
 
-**三个可选入口**：
-1. **做 day02 小题**（5 分钟热身）
-2. **学 Interrupt**（LangGraph 下一块，填空轨）
-3. **写 LangGraph 学习笔记**（把今天那条线沉淀下来）
+**优先级最高：面试答案**（技术材料够了，现在差"会讲"）
+1. **填 RAG 第一题的 5 段骨架**（最高频开场题）← 首选
+2. **做 day02 小题**（10 分钟热身，保持"每天一题"）
+3. **学 Interrupt**（LangGraph 继续，填空轨）
+4. 写 LangGraph 学习笔记（把概念→重写→checkpointer→debug 那条线沉淀）
+
+**日常维护 GitHub**（每次学习完）：
+```powershell
+cd D:\study-practice
+git add .
+git commit -m "what you did today"
+git push
+```
 
 **环境状态**（不用重装）：
 - Python 包都在（langgraph 在 `D:\新建文件夹 (5)\Lib\site-packages`）
-- `.env` 配好了基元律动
-- 模型缓存在 `D:\study-practice\rag-demo\models`
+- `.env` 配好了基元律动（真 key 只在这个文件，已被 gitignore）
+- 模型缓存在 `D:\study-practice\rag-demo\models`（1.1GB，不提交）
+- Git 仓库已初始化，remote 指向自己的 GitHub
 
 ---
 
