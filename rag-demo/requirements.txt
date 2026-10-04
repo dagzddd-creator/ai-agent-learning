@@ -1,0 +1,5 @@
+# RAG 项目依赖（学习用）
+# embedding 用 sentence-transformers + 本地中文模型，免费离线
+# 向量库用 chromadb，轻量、本地文件存储
+sentence-transformers>=3.0.0
+chromadb>=0.5.0

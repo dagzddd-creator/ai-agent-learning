@@ -1,0 +1,27 @@
+# 环境变量（含密钥，绝不提交）
+.env
+.env.local
+
+# 模型文件（1GB+，绝不提交；需要时重新下载即可）
+rag-demo/models/
+
+# 向量库（可由 build_index.py 重建）
+rag-demo/chroma_db/
+
+# 本地数据文件（SQLite 数据库 / LangGraph 记忆）
+# 注意用 *.sqlite* 才能覆盖 -shm / -wal 辅助文件
+*.sqlite*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 系统文件
+Thumbs.db
+desktop.ini
